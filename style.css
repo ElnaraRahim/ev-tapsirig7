@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+.container{
+    width: 1400px; 
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.boxes{
+    width: 200px;
+    height: 450px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    
+    
+}
+.content img  {
+    width: 200px;
+    border-radius: 10px;
+
+}
+.content p{
+    width: 200px;
+    margin: 10px;
+}
+.price{
+    text-decoration: line-through;
+    
+}
+.price1{
+    color: rgb(237, 161, 18) ;
+}
+.see{
+    color: rgb(237, 161, 18);
+}
+.text{
+    color: palevioletred;
+}
+.line{
+    background-color: gray;
+    width: 190px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+
